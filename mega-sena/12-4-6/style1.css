@@ -1,5 +1,6 @@
 body{
     background-image: radial-gradient(ellipse at center, #8dbbf788, #5a96ce);
+	
 	 }
 
 
@@ -18,6 +19,7 @@ body{
 	line-height: 1;
 }
 /*botao display 1-60*/
+
 .numero {
 	background-color: rgb(243, 243, 243);
         color: rgb(0, 0, 0);
@@ -31,19 +33,20 @@ body{
 		width: 46px;
 		font-family: 'Signika Negative', sans-serif;
 		
+		
 	}
 /*botao display gerar e limpar*/
 	.botaog {
 		background-color: rgb(243, 243, 243);
 			color: rgb(0, 0, 0);
 			border-color: #5a96ce;
-		   	padding: 10px;
+		   	padding: 23px;
 			font-size: 1rem;
 			border-radius: 15px;
 			border-color: rgb(255, 255, 255);
 			margin-right: 5px;
 			margin-left: 5px;
-			width:170px;
+			width: 170px;
 			font-family: 'Signika Negative', sans-serif;
 			
 		}
@@ -84,16 +87,19 @@ body{
 	background-color: rgb(255, 255, 255);
 }
 
+
+/*jogo gerados */
 .jogo {
 	display: none;
 	align-items: center;
 	margin: 0 40px 40px;
-	padding: 30px;
+	padding: 20px;
 	border: 1px solid #ccc;
 	border-radius: 10px;
-	background-color: #4e69ff;
+	background-color: #6178fc;
 	box-shadow: 0 0 5px rgba(0,0,0,0.3);
-	width: 360px;
+	min-width: 320px;
+	max-width: auto;
 }
 
 .jogo .numero-jogo {
@@ -114,7 +120,8 @@ body{
 	justify-content: center;
 	align-items: center;
 	height: 450px;
-	width: 420px;
+	min-width: 320px;
+	max-width: 520px;
 	margin: 0 auto;
 	background-color: rgb(255, 255, 255);
 	border-radius: 5%;
@@ -122,6 +129,8 @@ body{
 	border-style:ridge;
 	padding: auto;
 	border: 5%;
+
+
 	}
 	
 	
