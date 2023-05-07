@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(160, 42, 111);}
+
+
+
+	.container {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.numeros {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.numero {
+	background-color: rgb(255, 0, 157);
+        color: rgb(255, 255, 255);
+        padding: 15px;
+        font-size: 1.1rem;
+        border-radius: 50px;
+        border-color: rgb(255, 255, 255);
+        margin-right: 20px}
+
+.numero.selecionado {
+	background-color: #f00;
+	color: #fff;
+}
+
+.selecionados {
+	margin-bottom: 20px;
+}
+
+.numeros-selecionados 
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+	background-color: rgb(255, 255, 255)
+}
+
+.numeros-selecionados .numero-selecionado {
+	font-size: 24px;
+	padding: 10px 20px;
+	margin: 0 10px;
+	border-radius: 5px;
+	background-color: rgb(0, 0, 0);
+	color: #00ff0d;
+}
+
+.jogos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: rgb(255, 255, 255);
+}
+
+.jogo {
+	display: none;
+	align-items: center;
+	margin: 0 40px 20px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #ff00f2;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.jogo .numero-jogo {
+	font-size: 24px;
+	padding: 10px 20px;
+	margin: 0 10px;
+	border-radius: 5px;
+	background-color: #ccc;
+}
+.botao-jogo{
+	display: inline-block;
+}
+.display1{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	height: 350px;
+	width: 410px;
+	margin: 0 auto;
+	background-color: rgb(241, 203, 224);
+	border-radius: 5%;
+	padding: auto;
+	border: 5%;
+	}
