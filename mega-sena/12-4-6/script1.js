@@ -18,6 +18,8 @@ numeros.forEach(numero => {
       numerosSelecionados.push(numero.textContent);
       numero.classList.toggle('selecionado');
     }
+
+    numerosSelecionadosDiv.innerHTML = numerosSelecionados.length.toString().padStart(2, '0') + "/" + "12";
     //numerosSelecionadosDiv.innerHTML = numerosSelecionados.join(" ");
     //<Text>Números selecionados: {numerosSelecionados.length}/12</Text>
     //numerosSelecionadosDiv.innerHTML = numerosSelecionados.map(numero => numero.padStart(2, '0')).join(" - ");//
