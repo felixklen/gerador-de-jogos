@@ -1,8 +1,5 @@
 body{
-    background-image: radial-gradient(ellipse at center, #8dbbf788, #5a96ce);
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color:#f082b9c9;
 	
 	 }
 
@@ -25,19 +22,40 @@ body{
 
 .numero {
 	background-color: rgb(243, 243, 243);
-        color: rgb(0, 0, 0);
-		border-color: #5a96ce;
-       padding: 10px;
-        font-size: 1rem;
-        border-radius: 15px;
-        border-color: rgb(255, 255, 255);
-        margin-right: 5px;
-		margin-left: 5px;
-		width: 46px;
+        color: rgb(148, 0, 123);
+		border-color: rgb(148, 0, 123);
+        padding: 10px;
+		margin-top: 2px;
+        font-size: 1rem;		
+        border-radius: 5px;        
+        margin-right: 22px;
+		margin-left: 22px;
+		width: 45px;
+		height: 50px;
 		font-family: 'Signika Negative', sans-serif;
 		
 		
+		
 	}
+/* botoes dos jogos gerados */ 
+	.numero1  {
+		background-color: rgb(243, 243, 243);
+			color: rgb(148, 0, 123);
+			border-color: rgb(148, 0, 123);
+			padding: 10px;
+			margin-top: 2px;
+			font-size: 1rem;		
+			border-radius: 5px;        
+			margin-right: 5px;
+			margin-left: 5px;
+			width: 45px;
+			
+			font-family: 'Signika Negative', sans-serif;
+			
+			
+			
+		}
+
 /*botao display gerar e limpar*/
 	.botaog {
 		background-color: rgb(243, 243, 243);
@@ -46,7 +64,7 @@ body{
 		   	padding: 23px;
 			font-size: 1rem;
 			border-radius: 15px;
-			border-color: rgb(255, 255, 255);
+			border-color: rgb(148, 0, 123);
 			margin-right: 5px;
 			margin-left: 5px;
 			width: 170px;
@@ -55,12 +73,12 @@ body{
 		}
 
 	.botaog:hover, .numero:hover {
-		background-color: #8dbbf788;
+		background-color: rgba(148, 0, 123, 0.363);
 	}
 
 
 .numero.selecionado {
-	background-color: rgb(112, 102, 252);
+	background-color: rgb(148, 0, 123);
 	color: #fff;
 }
 
@@ -91,15 +109,16 @@ body{
 }
 
 
-/*jogo gerados */
+/*jogo gerados e display */
 .jogo {
 	display: none;
 	align-items: center;
-	margin: 0 40px 40px;
-	padding: 20px;
-	border: 1px solid #ccc;
+	/*margin: 0 40px 40px ;*/
+	margin-top: 3px;
+	padding: 15px;
+	border: 2px solid rgb(148, 0, 123);
 	border-radius: 10px;
-	background-color: #6178fc;
+	background-color: rgb(242, 255, 182);
 	box-shadow: 0 0 5px rgba(0,0,0,0.3);
 	min-width: 320px;
 	max-width: auto;
@@ -116,26 +135,49 @@ body{
 	display: inline-block;
 }
 
-/*primeiro display aonde esta os numeros 1 - 60*/
+/*primeiro display aonde esta os numeros 1 - 25*/
 .display1{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	height: 450px;
+	height: 280px;
 	min-width: 320px;
 	max-width: 520px;
 	margin: 0 auto;
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(242, 255, 182);
 	border-radius: 5%;
-	border-color: #343b427c;
+	border-color: rgb(148, 0, 123);
 	border-style:ridge;
 	padding: auto;
 	border: 5%;
+	
+
 
 
 	}
 	
+
+	.display5{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		height: 50x;
+		min-width: 0;
+		max-width: 520px;
+		margin: 0 auto;
+		background-color: rgb(255, 0, 140);
+		border-radius: 5%;
+		border-color: rgb(148, 0, 123);
+		border-style:ridge;
+		padding: auto;
+		border: 5%;
+		
+	
+	
+	
+		}
 	
 	
 	
@@ -148,8 +190,12 @@ body{
 	  .tttx {
 	
 		font-family: 'Signika Negative', sans-serif;
-		color: #ffffff;
+		color: rgb(148, 0, 123);
 		text-align: left;
 
 	  }
-	
+	.titulo {
+		color:rgb(0, 0, 0);
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+		border-color: aqua;
+	}

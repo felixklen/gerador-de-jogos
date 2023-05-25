@@ -1,0 +1,27 @@
+
+
+body {
+    background: linear-gradient(to bottom right, #5298f3, #ff0080c9);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+    .display1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+
+}
+  .botoeshome  {
+    border-radius: 20%;
+    padding:40px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 5px;
+	  margin-left: 5px;
+    font-size: 2rem;
+
+  }
+  .botoeshome:hover {
+    background-color: aqua;
+  }
