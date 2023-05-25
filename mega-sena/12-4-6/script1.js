@@ -22,7 +22,7 @@ numeros.forEach(numero => {
     //<Text>Números selecionados: {numerosSelecionados.length}/12</Text>
     //numerosSelecionadosDiv.innerHTML = numerosSelecionados.map(numero => numero.padStart(2, '0')).join(" - ");//
 
-    ,
+    
 
     //jogosDivs[index].innerHTML = jogo.map(numero => `<button class="numero">${numero.toString().padStart(2, '0')}</button>`).join('');
 
