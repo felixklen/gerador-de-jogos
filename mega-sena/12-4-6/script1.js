@@ -27,7 +27,7 @@ numeros.forEach(numero => {
     
 
     //jogosDivs[index].innerHTML = jogo.map(numero => `<button class="numero">${numero.toString().padStart(2, '0')}</button>`).join('');
-
+    
 
   });
 });

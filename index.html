@@ -9,10 +9,29 @@
 </head>
 <body>
     <display class = "display1">
-        <button class = "botoeshome" onclick="redirecionar('mega_sena')">MEGA-SENA</button>
-        <button class = "botoeshome" onclick="redirecionar('lotofacil')">LOTOFACIL</button>
+        <button id= "mega-sena" class = "botoeshome" onclick="exibirPopup('mega-sena')">MEGA-SENA</button>
+        
+        <button id= "lotofacil" class = "botoeshome" onclick="exibirPopup('lotofacil')">LOTOFACIL</button>
     </display>    
     <script src="script.js"></script>
+
+   
+
+
+
+    <div id="popup1" class="popup">
+        <span class="close" onclick="fecharPopup()">&times;</span>
+        <h3>Escolha um Desdobramento - MegaSena</h3>
+        <p> <a href="mega-sena/12-4-6/index1.html">Escolha 12 numeros e tenha garantia de 1 bilhete premiado com 4 pontos (quadra), caso acerte 6 numeros dentre os 12 escolhidos. - 11 jogos</a></p>
+        
+        <p>Para fechar o popup, clique no botão daaaae fechar (x).</p>
+    </div>
+    <div id="popup2" class="popup">
+        <span class="close" onclick="fecharPopup()">&times;</span>
+        <h3 style=>Escolha um Desdobramento - Lotofacil</h3>
+        <p>Escolha 19 numeros e tenha garantia de 1 bilhete premiado com 4 pontos (quadra), caso acerte 6 numeros dentre os 12 escolhidos. - 10 jogos</p>
+        <p>Para fechar o popup, clique no botão daaaae fechar (x).</p>
+    </div>
 
 
 

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Desdobra Mega Sena</title>
+    <style>
+        /* Estilos para o popup */
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            padding: 20px;
+            background-color: #5b8fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            z-index: 9999;
+        }
+
+        /* Estilos para o botão de fechar */
+        .close {
+            color: #888;
+            float: right;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        function exibirPopup() {
+            var popup = document.getElementById("popup");
+            popup.style.display = "block";
+        }
+
+        function fecharPopup() {
+            var popup = document.getElementById("popup");
+            popup.style.display = "none";
+        }
+    </script>
+</head>
+<body>
+    <h2>Escolha um Desdobramento</h2>
+
+    <button onclick="exibirPopup()">Abrir Opcoes</button>
+
+    <div id="popup" class="popup">
+        <span class="close" onclick="fecharPopup()">&times;</span>
+        <h3>Clique no melhor jogo</h3>
+        <p>Este é um exemplo de popup em HTML.</p>
+        <p>Para fechar o popup, clique no botão daaaae fechar (x).</p>
+    </div>
+</body>
+</html>
